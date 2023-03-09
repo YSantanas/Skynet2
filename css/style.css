@@ -267,5 +267,5 @@ overflow: hidden;
   padding-left: 20%;
   padding-right: 20%;
   background: #ffffff;
-  
+  box-shadow: 1px 5px 25px rgba(151, 234, 238, 0.45);
 }
