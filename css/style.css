@@ -210,8 +210,9 @@ overflow: hidden;
 
 }
 .parrafo{
- 
-  width: 90%;
+  width: min(100vw, 600px);
+
+
   height: auto;
   padding: 20px 20px;
   font-size: 15px;
@@ -223,6 +224,7 @@ overflow: hidden;
 
 }
 .parrafo img{
+  
   width: 300px;
   border-radius: 10px;
   float: left;
@@ -456,10 +458,9 @@ body {
 /* CONTENDERO DE LA PAGINA INFORMACION*/
 
 .contenedor-info {
-  display: grid;
+  display: flex;
 background-color: #fff;
 
- 
   background-size: 100% 100%;
   margin-left: 10%;
   padding-left: 2%;
@@ -470,35 +471,39 @@ background-color: #fff;
 
 
 .contenedor-info-izq {
-  display: grid;
-background-color: #fff;
+  display: flex;
+  background-color: #fff;
 
- 
   background-size: 100% 100%;
   margin-right: 10%;
   padding-left: 2%;
   padding-right: 2%;
   margin-top: 2%;
   border: 5px dotted rgb(104, 216, 244);
+
 }
 
 .parrafoinfo_d img{
-
   width: 300px;
   border-radius: 10px;
   float: left;
-  margin-right: 15px;
+
+  margin-right: 2%;
   border: 5px dotted rgb(104, 216, 244);
-  
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 
 .parrafoinfo_izq img{
-
   width: 300px;
   border-radius: 10px;
-  margin-left: 15px;
+  float: right;
+  margin-right: 2%;
   border: 5px dotted rgb(104, 216, 244);
+  margin-top: 1%;
+  margin-bottom: 1%;
+
 
 }
 
@@ -522,4 +527,31 @@ font-size: 55px;
   to {
     text-shadow: 0 0 30px #c2f2fe, 0 0 10px #3494c4;
   }
+}
+
+
+/*CONTACTO*/
+
+.contenedor-contacto {
+  display: flex;
+  overflow: hidden;
+ align-items: center;
+ justify-content: center;
+
+background-color: #fff;
+margin-top: 3%;
+padding-top: 3%;
+padding-bottom: 3%;
+flex-direction: column;
+  
+}
+
+.parrafoinfo_info img{
+  width: 300px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+ 
+  border: 5px dotted rgb(104, 216, 244);
+
 }
