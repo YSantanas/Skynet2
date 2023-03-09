@@ -292,6 +292,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: #d0f5fd;
 }
 
 .carousel {
@@ -548,6 +549,36 @@ flex-direction: column;
 
 .parrafoinfo_info img{
   width: 300px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 15px;
+ 
+  border: 5px dotted rgb(104, 216, 244);
+
+}
+
+/*ACERCA DE*/
+
+.contenedor-acerca {
+  display: flex;
+  overflow: hidden;
+ align-items: center;
+ justify-content: center;
+
+background-color: #fff;
+margin-top: 3%;
+padding-top: 3%;
+padding-bottom: 3%;
+flex-direction: column;
+  
+}
+
+.parrafoacerca img{
+  margin-top: 5%;
+  margin-left: 3%;
+
+  width: 250px;
+  height: 300px;
   border-radius: 10px;
   float: left;
   margin-right: 15px;
