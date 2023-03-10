@@ -548,7 +548,9 @@ flex-direction: column;
 }
 
 .parrafoinfo_info img{
-  width: 300px;
+
+  width: 250px;
+  height: 250px;
   border-radius: 10px;
   float: left;
   margin-right: 15px;
